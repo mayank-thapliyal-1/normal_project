@@ -23,6 +23,17 @@ body {
   font-size: 2rem;
   cursor: pointer;
 }
+.hero img{
+    height: 30rem;
+    width: 30rem;
+    cursor: pointer;
+
+}
+.hero img:hover{
+    transform: scale(1.09);
+    transition-duration: 0.4s;
+    transition-delay: 0.2s;
+}
 .hero {
   margin-top: 7rem;
   display: flex;
@@ -48,6 +59,7 @@ body {
   font-weight: lighter;
   font-size: 15px;
   margin-top: 1rem;
+  cursor: pointer;
 }
 .mid {
   display: flex;
